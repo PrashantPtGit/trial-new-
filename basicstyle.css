@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(140, 141, 141, 0.74);
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+div {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  border: 3px solid rgb(255, 140, 0);
+}
+
+.container div:nth-child(1) {
+  /* color: hotpink; */
+  background-color: #96ceb4;
+}
+
+.container div:nth-child(2) {
+    background-color:#ff6f69;
+}
+
+.container div:nth-child(3) {
+    background-color:#96ceb4 ;
+}
